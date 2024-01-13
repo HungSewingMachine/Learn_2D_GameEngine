@@ -81,14 +81,14 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LibraryPath>$(ProjectDir)libraries\lib;$(LibraryPath)</LibraryPath>
     <IncludePath>$(ProjectDir)libraries\include;$(IncludePath)</IncludePath>
-    <OutDir>..\Build\$(Platform)\$(Configuration)\bin</OutDir>
-    <IntDir>..\Build\$(Platform)\$(Configuration)\Intermediate</IntDir>
+    <OutDir>..\Build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>..\Build\$(Platform)\$(Configuration)\Intermediate\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LibraryPath>$(ProjectDir)libraries\lib;$(LibraryPath)</LibraryPath>
     <IncludePath>$(ProjectDir)libraries\include;$(IncludePath)</IncludePath>
-    <OutDir>..\Build\$(Platform)\$(Configuration)\bin</OutDir>
-    <IntDir>..\Build\$(Platform)\$(Configuration)\Intermediate</IntDir>
+    <OutDir>..\Build\$(Platform)\$(Configuration)\bin\</OutDir>
+    <IntDir>..\Build\$(Platform)\$(Configuration)\Intermediate\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
